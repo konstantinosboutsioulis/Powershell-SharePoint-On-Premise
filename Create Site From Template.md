@@ -6,7 +6,11 @@
 
 
 Add-PSSnapin Microsoft.Sharepoint.Powershell
+
 $web = get-spweb https://mydomainexample.com/template_url
+
 $template = $web.GetAvailableWebTemplates(1033) | Where-Object {$_.Title -eq "Template_Name"}
+
 $newweb = New-SPWeb -Url "https://mydomainexample.com/new_site_url" -Name "Name for my site"
+
 $newweb.ApplyWebTemplate($template.Name)
