@@ -3,7 +3,7 @@
 ## Save Site Theme using Powershell for Sharepoint 2013 ,2016,2019
 
 
-$WebURL = "https://mydomain.com/template_url"
+$WebURL = "https://mydomainexample.com/template_url"
 
 #Get the Web Object
 $Web= Get-SPWeb $WebURL
