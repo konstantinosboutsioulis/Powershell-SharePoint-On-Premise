@@ -2,32 +2,23 @@
 
 ## Save Site Theme using Powershell for Sharepoint 2013 ,2016,2019
 
-### Heading Three, etc.
 
-Any text with no empty lines between will become a paragraph.
-Leave an empty line between headings and paragraphs.
-Font can be *Italic* or **Bold**.
-Code can be highlighted with `backticks`.
+$WebURL = "https://mydomain.com/template_url"
 
-Hyperlinks look like this [GitHub Help](https://help.github.com/).
-Images look similar:
+#Get the Web Object
+$Web= Get-SPWeb $WebURL
 
-![alt text here](https://upload.wikimedia.org/wikipedia/commons/4/4b/Focus_ubt.jpeg)
+#Variables for Save site as template settings
+$TemplateName ="Template_Name"
+$TemplateTitle ="Template_Title"
+$TemplateDescription ="Template_Description"
+ 
+#Option to Save with content
+$SaveWithContent= 1  #0 otherwise
+ 
+#Save site as template programmatically with PowerShell
+$Web.SaveAsTemplate($TemplateName,$TemplateTitle,$TemplateDescription,$SaveWithContent)
 
-A bullet list is created using `*`, `+`, or `-`, like:
-
-- dog
-- cat
-- muffin
-
-A numbered list is created using a number + `.`, like:
-
-1. one
-2. two
-6. three
-2. four
-
-> Block quote.
 
 ----
 
