@@ -1,6 +1,6 @@
-# Create Site From Theme
+# Create Site From Template
 
-## Create New Site From Theme using Powershell for Sharepoint 2013 ,2016,2019
+## Create New Site From Template using Powershell for Sharepoint 2013,2016,2019
 
 
 
