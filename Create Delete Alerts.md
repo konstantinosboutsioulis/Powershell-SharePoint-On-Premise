@@ -2,7 +2,7 @@
 #  Create Delete Alerts for SharePoint Library using Powershell in Sharepoint 2013,2016,2019
 
 
-# Create a New alert for a user 
+## Create a New alert for a user 
 
 $SPsite = Get-SPSite "https://mydomainexample.com/site_example"
 
@@ -33,7 +33,7 @@ $SPweb.Dispose()
 $SPSite.Dispose()
 
 
-# Create a New alert for Group
+## Create a New alert for Group
  
 $SPweb = Get-SPWeb "https://mydomainexample.com/site_example"
 
