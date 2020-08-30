@@ -1,6 +1,6 @@
-# Save Site Theme
+# Save Site as Template
 
-## Save Site Theme using Powershell for Sharepoint 2013 ,2016,2019
+## Save Site as Template using Powershell for Sharepoint 2013 ,2016,2019
 
 
 $WebURL = "https://mydomainexample.com/template_url"
