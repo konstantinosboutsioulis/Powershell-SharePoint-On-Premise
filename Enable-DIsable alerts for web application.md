@@ -6,6 +6,8 @@
 ## To enable alerts for Web application
  
 $SPwebapp=Get-SPWebApplication "http://SharePointSite.com"
+
 $SPwebapp.AlertsEnabled = $true #$falese to Dissable 
+
 $SPwebapp.Update()
  
