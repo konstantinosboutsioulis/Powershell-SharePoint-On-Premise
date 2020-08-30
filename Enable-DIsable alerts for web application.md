@@ -5,7 +5,7 @@
 
 
  
-$SPwebapp=Get-SPWebApplication "http://SharePointSite.com"
+$SPwebapp=Get-SPWebApplication "https://mydomainexample.com"
 
 $SPwebapp.AlertsEnabled = $true #$false to Dissable 
 
