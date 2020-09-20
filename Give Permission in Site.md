@@ -1,6 +1,6 @@
-# Give Persmissions in SharePoint Site
+# Give Permissions in SharePoint Site
 
-##  Give Persmissions in SharePoint Site with Powershell for SharePoint 2013,2016,2019
+##  Give Permissions in SharePoint Site with Powershell for SharePoint 2013,2016,2019
 
 
 Add-PSSnapin Microsoft.Sharepoint.Powershell
